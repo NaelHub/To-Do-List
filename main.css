@@ -6,3 +6,16 @@
   --pink: #ec4899;
   --purple: #8b5cf6;
 }
+
+* {
+  box-size: border-box;
+  margin: 0;
+  font-family: "Fira sans', sans-serif
+}
+
+body{
+  display: flex;
+  flex: column;
+  min-height: 100vx
+  background: var(var(--dark))
+}
