@@ -1,21 +1,49 @@
 :root {
   --dark: #374151;
   --darker: #1f2937;
-  --darkest: #1f2937;
-  --light: #eee;
+  --darkest: #111827;
+  --grey: #6b7280;
   --pink: #ec4899;
   --purple: #8b5cf6;
+  --light: #eee;
 }
 
 * {
-  box-size: border-box;
   margin: 0;
-  font-family: "Fira sans', sans-serif
+  box-sizing: border-box;
+  font-family: "Fira sans", sans-serif;
 }
 
-body{
+body {
   display: flex;
-  flex: column;
-  min-height: 100vx
-  background: var(var(--dark))
+  flex-direction: column;
+  min-height: 100vh;
+  color: #fff;
+  background-color: var(--dark);
+}
+
+header {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--grey);
+  margin-bottom: 1rem;
+}
+
+#new-task-form {
+  display: flex;
+}
+
+input,
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
 }
