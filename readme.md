@@ -1,4 +1,4 @@
-# To Do List
+# To Do List 2023
 
 ![Example List](images/todolist.png)
 ![Edit Task](images/edittask.png)
@@ -7,6 +7,6 @@ I wanted to practice making a similar styled to-do-list as I've made before. Thi
 
 Functionality
 
-Add tasks
-Delete tasks
-Edit tasks that have been added
+-Add tasks
+-Delete tasks
+-Edit tasks that have been added
